@@ -1,0 +1,37 @@
+1、netstat -tunlp|grep 22  列一下22端口占用的程序  
+2、lsof -i:22          查看22端口的占用情况
+3、top 
+4、ps pid
+5、kill -9 pid
+6、find / a.txt  在/目录查找名称为a.txt的文件
+7、locate a.txt 定位a.txt所在目录
+8、ps -ef|grep javaw
+9、tar -zxvf a.tar.gz 解压a.tar.gz到当前目录
+9、tar -zcvf a.tar.gz *  当前目录所有文件 创建a.tar.gz压缩包
+10、rpm -Uvih *rpm    rpm安装
+11、soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard &
+12、mount -t cifs -o username=chengan,password=iris@2003 //192.168.10.1/share /mnt/share10.1   挂载//192.168.10.1/share到/mnt/share10.1
+13、cat /etc/issue   版本信息
+13、yum grouplist/yum groupinstall 'a' 查找/安装插件
+14、rpm -e --nodeps <包的名字>   不检查依赖，直接删除rpm包
+15、usermod -a -G groupA user   将user添加到groupA组中（不删除原所在组）
+
+16、防火墙关闭 /etc/init.d/iptables stop
+17、cp -rf egranres/* egrantres/ -u  以更新的方式 第归替换
+18 svn: svn add * ;svn ci -m "cast-run by cg"
+
+
+b808c05c046f4edeb201312ee7aec3d8
+17372c466c5645489a4ecbbc1001a9f6
+libreoffice-core-1:4.2.8.2-11.el6.x86_64
+
+正在删除:
+ libreoffice-core                                         x86_64                                1:4.2.8.2-11.el6                                   @base                                241 M
+为依赖而移除:
+ libreoffice-calc                                         x86_64                                1:4.2.8.2-11.el6                                   @base                                 28 M
+ libreoffice-draw                                         x86_64                                1:4.2.8.2-11.el6                                   @base                                2.2 M
+ libreoffice-graphicfilter                                x86_64                                1:4.2.8.2-11.el6                                   @base                                9.7 M
+ libreoffice-headless                                     x86_64                                1:4.2.8.2-11.el6                                   @base                                1.8 M
+ libreoffice-impress                                      x86_64                                1:4.2.8.2-11.el6                                   @base                                6.3 M
+ libreoffice-pdfimport                                    x86_64                                1:4.2.8.2-11.el6                                   @base                                583 k
+ libreoffice-writer
